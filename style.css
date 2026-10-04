@@ -642,15 +642,14 @@ section {
 .text-link:hover {
   color: var(--text);
 }
-
 /* ==========================================================================
-   PROJETOS (MOLDURA E ALTURA RESTAURADAS)
+   PROJETOS
    ========================================================================== */
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .project {
@@ -661,22 +660,13 @@ section {
   overflow: hidden;
   background: var(--surface);
   isolation: isolate;
-  grid-column: span 6;
   transition: transform 0.35s ease, border-color 0.3s ease;
 }
 
-.project-wide {
-  grid-column: span 7;
-}
-
-.project-blocks,
-.project-bank {
-  grid-column: span 5;
-}
-
-.project-copa {
+/* Se a quantidade de projetos for ímpar,
+   o último ocupa as duas colunas */
+.projects > .project:last-child:nth-child(odd) {
   grid-column: 1 / -1;
-  min-height: 380px;
 }
 
 .project:hover {
@@ -688,7 +678,11 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgba(217, 255, 114, 0.16), transparent 30%);
+  background: radial-gradient(
+    circle at var(--mx, 50%) var(--my, 50%),
+    rgba(217, 255, 114, 0.16),
+    transparent 30%
+  );
   opacity: 0.85;
   z-index: -1;
 }
@@ -697,7 +691,11 @@ section {
   position: absolute;
   inset: 0;
   padding: 20px;
-  background: linear-gradient(160deg, rgba(255, 255, 255, 0.04), transparent 44%);
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.04),
+    transparent 44%
+  );
 }
 
 .project-cafeteria .project-art {
@@ -718,15 +716,33 @@ section {
 
 .project-copa .project-art {
   background:
-    radial-gradient(circle at 50% 50%, rgba(217, 255, 114, 0.09), transparent 25%),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(217, 255, 114, 0.09),
+      transparent 25%
+    ),
     linear-gradient(145deg, #111c18, #0a110e);
 }
 
-:root[data-theme="light"] .project-cafeteria .project-art { background: linear-gradient(135deg, #eef0f4, #dfe4ea); }
-:root[data-theme="light"] .project-blocks .project-art { background: linear-gradient(145deg, #e9e5f0, #d9d2e4); }
-:root[data-theme="light"] .project-bank .project-art { background: linear-gradient(145deg, #f0eadf, #e3d7c4); }
-:root[data-theme="light"] .project-safe .project-art { background: linear-gradient(145deg, #deedf0, #c7dfe2); }
-:root[data-theme="light"] .project-copa .project-art { background: linear-gradient(145deg, #eef4ef, #dce7df); }
+:root[data-theme="light"] .project-cafeteria .project-art {
+  background: linear-gradient(135deg, #eef0f4, #dfe4ea);
+}
+
+:root[data-theme="light"] .project-blocks .project-art {
+  background: linear-gradient(145deg, #e9e5f0, #d9d2e4);
+}
+
+:root[data-theme="light"] .project-bank .project-art {
+  background: linear-gradient(145deg, #f0eadf, #e3d7c4);
+}
+
+:root[data-theme="light"] .project-safe .project-art {
+  background: linear-gradient(145deg, #deedf0, #c7dfe2);
+}
+
+:root[data-theme="light"] .project-copa .project-art {
+  background: linear-gradient(145deg, #eef4ef, #dce7df);
+}
 
 .project-graphic {
   position: absolute;
@@ -746,7 +762,7 @@ section {
 .project-cover-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -754,7 +770,11 @@ section {
   position: absolute;
   inset: auto 0 0;
   padding: 24px;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.88));
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.88)
+  );
   color: #fff;
   z-index: 2;
 }
@@ -1165,15 +1185,21 @@ body.modal-open {
    ========================================================================== */
 
 @media (max-width: 980px) {
+
   .projects .project {
     min-height: 380px;
   }
 
-  .project,
-  .project-wide,
-  .project-blocks,
-  .project-bank,
-  .project-copa {
-    grid-column: span 12;
+}
+
+@media (max-width: 700px) {
+
+  .projects {
+    grid-template-columns: 1fr;
   }
+
+  .projects > .project:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+
 }

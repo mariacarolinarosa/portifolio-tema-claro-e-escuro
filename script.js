@@ -26,34 +26,46 @@
     'Cafeteria': {
       text: 'Projeto digital com foco em identidade, experiência e apresentação de um negócio de café.',
       stack: 'HTML, CSS, JavaScript',
-      url: 'https://seu-link-cafeteria.com',
+      url: 'https://mariacarolinarosa.github.io/upgrade-intermediario-a-espuma-era-lei/',
       github: 'https://github.com/mariacarolinarosa'
     },
+
     'Blocos de Carnaval': {
       text: 'Conceito para organizar informações, eventos e experiências ligadas aos blocos e à programação.',
       stack: 'HTML, CSS, JavaScript',
       url: 'https://seu-link-carnaval.com',
       github: 'https://github.com/mariacarolinarosa'
     },
+
     'Aplicativo de banco': {
       text: 'Proposta de experiência para serviços financeiros, com atenção a clareza, fluxo e segurança.',
-      stack: 'HTML, CSS, JavaScript',
+      stack: 'HTML, CSS, JavaScript, Python',
       url: 'https://seu-link-banco.com',
       github: 'https://github.com/mariacarolinarosa'
     },
-    'Cofre de senhas': {
-      text: 'Projeto conceitual voltado à organização segura de credenciais e ao desenho de uma experiência simples.',
+
+    'Login Responsivo': {
+      text: 'Projeto desenvolvido com objetivo de trabalhar a implementação de uma interface de login responsiva.',
       stack: 'HTML, CSS, JavaScript',
-      url: 'https://seu-link-cofre.com',
+      url: 'https://mariacarolinarosa.github.io/tela_de_login_responsiva_tema_dark/',
       github: 'https://github.com/mariacarolinarosa'
     },
+
+    'Loja de Games': {
+      text: 'Projeto de comércio de consoles e jogos, com foco na apresentação dos produtos e experiência de navegação.',
+      stack: 'HTML, CSS, JavaScript',
+      url: 'COLOQUE_AQUI_O_LINK_DA_LOJA',
+      github: 'https://github.com/mariacarolinarosa'
+    },
+
     'Organização de Copa da Faculdade': {
       text: 'Planejamento e organização de uma competição acadêmica, com estrutura de participantes, regras e calendário.',
-      stack: 'HTML, CSS, JavaScript',
+      stack: 'HTML, CSS, JavaScript, PHP',
       url: 'https://seu-link-copa.com',
       github: 'https://github.com/mariacarolinarosa'
     }
   };
+
 
   function safeStorageGet(key) {
     try {
