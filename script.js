@@ -41,7 +41,7 @@
       text: 'Proposta de experiência para serviços financeiros, com atenção a clareza, fluxo e segurança.',
       stack: 'HTML, CSS, JavaScript, Python',
       url: 'https://mariacarolinarosa.github.io/web-banco-dos-universitarios/',
-      github: 'https://github.com/mariacarolinarosa/web-banco-dos-universitarios.git'
+      github: 'https://github.com/mariacarolinarosa/banco-dos-universitarios-aprimorado-com-interface.git'
     },
 
     'Login Responsivo': {
