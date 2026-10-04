@@ -37,11 +37,11 @@
       github: 'https://github.com/mariacarolinarosa'
     },
 
-    'Aplicativo de banco': {
+    'Banco dos Universitários': {
       text: 'Proposta de experiência para serviços financeiros, com atenção a clareza, fluxo e segurança.',
       stack: 'HTML, CSS, JavaScript, Python',
-      url: 'https://seu-link-banco.com',
-      github: 'https://github.com/mariacarolinarosa'
+      url: 'https://mariacarolinarosa.github.io/web-banco-dos-universitarios/',
+      github: 'https://github.com/mariacarolinarosa/web-banco-dos-universitarios.git'
     },
 
     'Login Responsivo': {
