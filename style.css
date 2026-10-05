@@ -1316,7 +1316,7 @@ body.modal-open {
 
 @media (max-width: 760px) {
   html {
-    scroll-padding-top: 80px;
+    scroll-padding-top: 70px;
   }
 
   body {
@@ -1324,13 +1324,13 @@ body.modal-open {
   }
 
   .site-nav {
-    inset: 10px 10px auto;
+    inset: 8px 8px auto;
   }
 
   .nav-shell {
     position: relative;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 18px;
   }
 
   .brand {
@@ -1347,14 +1347,14 @@ body.modal-open {
 
   .nav-links.open {
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 6px);
     left: 0;
     right: 0;
     display: grid;
-    gap: 4px;
-    padding: 10px;
+    gap: 2px;
+    padding: 8px;
     border: 1px solid var(--line);
-    border-radius: 18px;
+    border-radius: 16px;
     background: color-mix(in srgb, var(--bg) 94%, transparent);
     -webkit-backdrop-filter: blur(18px);
     backdrop-filter: blur(18px);
@@ -1363,8 +1363,8 @@ body.modal-open {
 
   .nav-links.open a {
     display: block;
-    padding: 12px;
-    border-radius: 10px;
+    padding: 10px 12px;
+    border-radius: 9px;
   }
 
   .nav-links.open a:hover,
@@ -1380,15 +1380,17 @@ body.modal-open {
     display: grid;
   }
 
+  /* HERO MOBILE */
   .hero {
     min-height: auto;
-    padding: 145px 0 80px;
+    padding-top: 92px;
+    padding-bottom: 38px;
   }
 
   .hero-name-row {
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    gap: 18px;
   }
 
   .hero h1 {
@@ -1397,24 +1399,25 @@ body.modal-open {
   }
 
   .hero-photo {
-    width: min(100%, 230px);
+    width: min(100%, 210px);
     flex-basis: auto;
     margin-left: auto;
-    border-radius: 22px;
+    border-radius: 20px;
   }
 
   .hero-copy {
     max-width: 100%;
-    font-size: 16px;
-    margin-top: 22px;
+    font-size: 15px;
+    margin-top: 18px;
   }
 
   .hero-cta {
     width: 100%;
+    margin-top: 20px;
   }
 
   .hero-cta .btn {
-    min-height: 46px;
+    min-height: 44px;
   }
 
   .scroll-cue {
@@ -1422,7 +1425,11 @@ body.modal-open {
   }
 
   section {
-    padding: 64px 0;
+    padding: 50px 0;
+  }
+
+  #sobre {
+    padding-top: 32px;
   }
 
   .section-title {
@@ -1576,45 +1583,57 @@ body.modal-open {
   }
 
   .site-nav {
-    inset: 8px 8px auto;
+    inset: 6px 6px auto;
   }
 
   .nav-shell {
-    padding: 8px 10px 8px 14px;
+    padding: 7px 9px 7px 13px;
+    border-radius: 16px;
   }
 
   .theme-toggle,
   .menu-toggle {
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
   }
 
+  /* Mais próximo da navbar no celular */
   .hero {
-    padding-top: 125px;
-    padding-bottom: 60px;
+    padding-top: 82px;
+    padding-bottom: 30px;
   }
 
   .eyebrow {
-    font-size: 10px;
-    letter-spacing: 0.14em;
+    font-size: 9px;
+    letter-spacing: 0.12em;
     align-items: flex-start;
   }
 
   .eyebrow::before {
-    width: 24px;
-    margin-top: 7px;
+    width: 22px;
+    margin-top: 6px;
   }
 
   .hero h1 {
     font-size: clamp(54px, 18vw, 78px);
   }
 
+  .hero-name-row {
+    gap: 16px;
+  }
+
   .hero-photo {
-    width: 190px;
+    width: 175px;
     margin-left: 0;
   }
 
+  .hero-copy {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
   .hero-cta {
+    margin-top: 18px;
     flex-direction: column;
   }
 
@@ -1624,7 +1643,11 @@ body.modal-open {
   }
 
   section {
-    padding: 52px 0;
+    padding: 44px 0;
+  }
+
+  #sobre {
+    padding-top: 24px;
   }
 
   .section-kicker {
