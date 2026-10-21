@@ -58,7 +58,7 @@
       github: ''
     },
 
-    'Organização de Copa da Faculdade': {
+    'Gerenciamento da Copa do Mundo': {
       text: 'Planejamento e organização de uma competição acadêmica, com estrutura de participantes, regras e calendário.',
       stack: 'HTML, CSS, JavaScript, PHP',
       url: '',
