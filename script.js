@@ -30,13 +30,6 @@
       github: 'https://github.com/mariacarolinarosa'
     },
 
-    'Blocos de Carnaval': {
-      text: 'Conceito para organizar informações, eventos e experiências ligadas aos blocos e à programação.',
-      stack: 'HTML, CSS, JavaScript',
-      url: 'https://seu-link-carnaval.com',
-      github: 'https://github.com/mariacarolinarosa'
-    },
-
     'Banco dos Universitários': {
       text: 'Proposta de experiência para serviços financeiros, com atenção a clareza, fluxo e segurança.',
       stack: 'HTML, CSS, JavaScript, Python',
@@ -48,6 +41,13 @@
       text: 'Projeto desenvolvido com objetivo de trabalhar a implementação de uma interface de login responsiva.',
       stack: 'HTML, CSS, JavaScript',
       url: 'https://mariacarolinarosa.github.io/tela_de_login_responsiva_tema_dark/',
+      github: 'https://github.com/mariacarolinarosa'
+    },
+    
+    'Blocos de Carnaval': {
+      text: 'Conceito para organizar informações, eventos e experiências ligadas aos blocos e à programação.',
+      stack: 'HTML, CSS, JavaScript',
+      url: 'https://seu-link-carnaval.com',
       github: 'https://github.com/mariacarolinarosa'
     },
 
