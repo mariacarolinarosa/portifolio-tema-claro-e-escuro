@@ -47,22 +47,22 @@
     'Blocos de Carnaval': {
       text: 'Conceito para organizar informações, eventos e experiências ligadas aos blocos e à programação.',
       stack: 'HTML, CSS, JavaScript',
-      url: 'https://seu-link-carnaval.com',
-      github: 'https://github.com/mariacarolinarosa'
+      url: 'Versão com interface e SGBD em desenvolvimento. ',
+      github: 'https://github.com/mariacarolinarosa/gerenciamento-de-blocos-carnaval.git'
     },
 
     'Loja de Games': {
       text: 'Projeto de comércio de consoles e jogos, com foco na apresentação dos produtos e experiência de navegação.',
       stack: 'HTML, CSS, JavaScript',
-      url: 'COLOQUE_AQUI_O_LINK_DA_LOJA',
-      github: 'https://github.com/mariacarolinarosa'
+      url: 'Projeto em desenvolvimento',
+      github: ''
     },
 
     'Organização de Copa da Faculdade': {
       text: 'Planejamento e organização de uma competição acadêmica, com estrutura de participantes, regras e calendário.',
       stack: 'HTML, CSS, JavaScript, PHP',
-      url: 'https://seu-link-copa.com',
-      github: 'https://github.com/mariacarolinarosa'
+      url: '',
+      github: ''
     }
   };
 
