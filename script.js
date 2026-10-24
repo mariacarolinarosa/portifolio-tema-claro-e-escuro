@@ -44,11 +44,11 @@
       github: 'https://github.com/mariacarolinarosa'
     },
     
-    'Blocos de Carnaval': {
-      text: 'Conceito para organizar informações, eventos e experiências ligadas aos blocos e à programação.',
+    'Essência Body Care': {
+      text: 'Cosméticos de qualidade testados e aprovados.',
       stack: 'HTML, CSS, JavaScript',
-      url: 'Versão com interface e SGBD em desenvolvimento. ',
-      github: 'https://github.com/mariacarolinarosa/gerenciamento-de-blocos-carnaval.git'
+      url: 'https://mariacarolinarosa.github.io/essencia-body-care-loja-cosmeticos/',
+      github: 'https://github.com/mariacarolinarosa/essencia-body-care-loja-cosmeticos.git'
     },
 
     'Loja de Games': {
